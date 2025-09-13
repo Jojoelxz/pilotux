@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "api/calendar.js",
+      "src": "calendar.js",
       "use": "@vercel/node"
     }
   ],
   "routes": [
     {
-      "src": "/api/calendar",
-      "dest": "api/calendar.js"
+      "src": "calendar",
+      "dest": "calendar.js"
     }
   ]
 }
